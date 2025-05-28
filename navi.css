@@ -1,0 +1,51 @@
+.container {
+            display: flex;
+            gap: 200px; 
+            margin: 30px;
+            align-items: flex-start;
+        }
+
+        
+        .vertical {
+            width: 200px;
+            background-color: lightblue;
+            border: 1px solid #ccc;
+        }
+
+        .vertical a {
+            display: block;
+            color: blue;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .home{
+            background-color: orange;
+            color: white;
+            font-weight: bold;
+        }
+
+        .horizontal {
+            background-color: #ecede9;
+            border: 1px solid rgb(232, 210, 210);
+            display: flex;
+        }
+
+        .horizontal a {
+            display: block;
+            color: blue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            border-right: 1px solid gray;
+        }
+
+        .horizontal a:last-child {
+            border-right: none;
+        }
+
+        .home1 {
+            background-color: rgb(203, 151, 151);
+            color: white;
+            font-weight: bold;
+        }
